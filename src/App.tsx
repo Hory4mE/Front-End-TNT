@@ -17,7 +17,7 @@ function App() {
     // Fragment Start (<>)
     <>
       <div className ="main">
-        <h1>hello React</h1>
+        <h1>hello Reacasasadat</h1>
         
         <About data = {data} func={setState} />
         { // paste array (Raw Data) element เดียว
@@ -27,7 +27,7 @@ function App() {
         }
         <h1>{state}</h1>
          
-        <input onChange={(e) => setState(e.target.value)} // input box + onchange when typing
+        <input onChange={(e) => setState(state+e.target.value)} // input box + onchange when typing
          /> 
         
         {/* <button onClick={() => setState("Hello Hi Hi Hell no! State Set!")}>Click Me Dude!</button> */}
