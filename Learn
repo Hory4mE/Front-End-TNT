@@ -1,0 +1,7 @@
+Public == Assets
+Source (SRC) == เขียนโค๊ด ไฟล์ .tsx
+
+Main > tsx
+นำไฟล์ App มาเขียน
+
+root in index.html == root == สูงสุดของ DOM
